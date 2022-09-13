@@ -1,0 +1,95 @@
+.App{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.claculatorDiv{
+    display: flex;
+    min-height: 50vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    background-color:black;
+    padding: 3%;
+
+}
+.titleDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.global-calculator{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.great-operation-button{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.operator{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.equal-button{
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.equal{
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.screen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+
+}

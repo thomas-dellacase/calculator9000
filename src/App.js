@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import Calculator from './Component/Calculator';
+import TitlePage from './Component/Title';
+
 
 function App() {
-  return (
-      <h1>Calculator 9000</h1>
-      
-  );
+  return(
+    <div className="App">
+          <TitlePage/>
+          <Calculator />
+    </div>
+  )
 }
 
 export default App;
