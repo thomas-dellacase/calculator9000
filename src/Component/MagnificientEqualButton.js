@@ -1,7 +1,7 @@
-function MagnificientEqualButton(){
+function MagnificientEqualButton(props){
     return(
         <div className="equal-button">
-            <button class="equal">=</button>
+            <button  class="equal">=</button>
         </div>
     )
 }

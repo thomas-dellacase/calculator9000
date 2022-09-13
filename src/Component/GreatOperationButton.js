@@ -1,11 +1,14 @@
-function GreatOperationButton(){
+function GreatOperationButton(props){
+    // function Click(e){
+    //     console.log(e.target.value)
+    // }
     return (
     <div className="great-operation-button">
-        <button class='operator'>+</button>
-        <button class='operator'>-</button>
-        <button class='operator'>*</button>
-        <button class='operator'>/</button>
-        <button class='operator'>C</button>
+        <button onClick={props.Click} value="+" class='operator'>+</button>
+        <button onClick={props.Click} value="-" class='operator'>-</button>
+        <button onClick={props.Click} value="*" class='operator'>*</button>
+        <button onClick={props.Click} value="/" class='operator'>/</button>
+        <button onClick={props.Click} value="C" class='operator'>C</button>
     </div>
     );
 }

@@ -1,8 +1,8 @@
-function BeautifulScreen(){
+function BeautifulScreen(props){
     return(
         <div className="global-calculator">
             <div className="screen">
-                <p>0</p>
+                <p>{props.operation}</p>
             </div>
         </div>
     )
