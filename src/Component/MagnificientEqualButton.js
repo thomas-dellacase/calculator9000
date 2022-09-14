@@ -1,7 +1,7 @@
 function MagnificientEqualButton(props){
     return(
         <div className="equal-button">
-            <button  class="equal">=</button>
+            <button onClick={props.Click} value='=' class="equal">=</button>
         </div>
     )
 }
