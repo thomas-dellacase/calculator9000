@@ -45,7 +45,7 @@ function Calculator(){
 
 
     return(
-        <div className="global-calculator">
+        <div className="global-calculator" class="global">
             <ItsOver result={result}/>
             <div className="claculatorDiv" class='claculatorDiv'>
                 <BeautifulScreen operation={operation} Click={Click}/>

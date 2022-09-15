@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 .claculatorDiv{
-    display: flex;
+
     min-height: 50vh;
     width: 50%;
     align-items: center;
@@ -95,3 +95,24 @@
     margin:1%;
     
 }
+.global{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vegetaMous{
+    align-self: self-end;
+}
+.vegeta{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 50px;
+    border: black solid 3px;
+    background-image: url('img/vegeta-mustache.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
